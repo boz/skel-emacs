@@ -1,10 +1,7 @@
 
-(defun boz:add-bindings (map bindings)
+(defun ab:add-bindings (map bindings)
   (dolist (b bindings)
-    (define-key map (read-kbd-macro (first b)) (second b))))
-
-(defun boz:add-auto-mode (pat mode)
- (add-to-list 'auto-mode-alist (cons pat mode)))
+    (define-key map (read-kbd-macro (car b)) (cdr b))))
 
 (provide 'ab-util)
 

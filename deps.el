@@ -7,4 +7,7 @@
     (paredit . "http://mumble.net/~campbell/emacs/paredit-beta.el")
     (color-theme
      . "http://download.gna.org/color-theme/color-theme-6.6.0.tar.gz")
+
+
+    (magit . "git://gitorious.org/magit/mainline.git")
     ))

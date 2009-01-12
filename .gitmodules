@@ -1,0 +1,6 @@
+[submodule "thirdparty/slime"]
+	path = thirdparty/slime
+	url = git://github.com/nablaone/slime.git
+[submodule "thirdparty/magit"]
+	path = thirdparty/magit
+	url = git://gitorious.org/magit/mainline.git
