@@ -24,7 +24,8 @@
   '(global autosave ido theme magit))
 
 (defvar ab:*lang-configs*
-  '(lisp))
+  '(lisp
+    html))
 
 ;; bootstrap environment
 (load ab:*custom-file*)
@@ -39,12 +40,14 @@
 
 (defun ab:require (name)
   (let ((pkg (format "ab-%s" name)))
-       (message "loading ab config %s..." name)
+       (message "loading ab-%s..." name)
        (require (intern pkg))))
+
+(defun ab:load-thirdparty (p)
+  (load (ab:path-join ab:*thirdparty-dir* p)))
 
 (dolist (x ab:*global-configs*)
   (ab:require x))
 
 (dolist (x ab:*lang-configs*)
   (ab:require x))
-

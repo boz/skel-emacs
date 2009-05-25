@@ -1,4 +1,3 @@
-
 (defvar ab:*thirdparty-deps*
   '(
     (slime . "git://github.com/nablaone/slime.git")
@@ -10,4 +9,7 @@
 
 
     (magit . "git://gitorious.org/magit/mainline.git")
+
+
+    (nxhtml . "http://ourcomments.org/Emacs/nXhtml/doc/nxhtml.html")
     ))
