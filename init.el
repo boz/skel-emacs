@@ -21,10 +21,12 @@
   (ab:path-join ab:*skel-basedir* "ab"))
 
 (defvar ab:*global-configs*
-  '(global autosave ido theme magit))
+  '(global autosave ido theme magit tramp))
 
 (defvar ab:*lang-configs*
   '(lisp
+    ruby
+    xml
     html))
 
 ;; bootstrap environment

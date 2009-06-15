@@ -18,6 +18,9 @@
 ;; yes/now -> y/n
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; don't beep
+(setq visible-bell t)
+
 ;; Remove mousable items
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 (if (fboundp 'tool-bar-mode)   (tool-bar-mode   -1))
