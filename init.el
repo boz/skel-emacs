@@ -27,7 +27,8 @@
   '(lisp
     ruby
     xml
-    html))
+    html
+    erlang))
 
 ;; bootstrap environment
 (load ab:*custom-file*)
