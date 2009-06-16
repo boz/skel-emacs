@@ -21,7 +21,7 @@
   (ab:path-join ab:*skel-basedir* "ab"))
 
 (defvar ab:*global-configs*
-  '(global autosave ido theme magit tramp))
+  '(global autosave ido theme vc tramp))
 
 (defvar ab:*lang-configs*
   '(lisp
